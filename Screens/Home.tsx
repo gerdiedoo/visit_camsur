@@ -5,7 +5,7 @@ import * as Animatable from 'react-native-animatable';
 import { BrokenHeart, Visit_Camsur, Food, Gamehover, Tour, Accomodations, Home } from '../assets';
 
 
-import BottomButtons from '../Components/BottomButtons';
+import BottomButtons from '../Components/BottomButtons.';
 
 const Favorite = () => {
 

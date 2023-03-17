@@ -33,7 +33,7 @@ const TabNavigator = () => {
           options={{
             headerShown: false,
             tabBarIcon: ({ focused }) => (
-              <View style={focused}>
+              <View  >
                 <Image
                   source={require('../assets/home.png')}
                   resizeMode="contain"
@@ -50,7 +50,7 @@ const TabNavigator = () => {
           options={{
             headerShown: false,
             tabBarIcon: ({ focused }) => (
-              <View style={focused}>
+              <View  >
                 <Image
                   source={require('../assets/Gamehover.png')}
                   resizeMode="contain"
@@ -65,7 +65,7 @@ const TabNavigator = () => {
           options={{
             headerShown: false,
             tabBarIcon: ({ focused }) => (
-              <View style={focused}>
+              <View  >
                 <Image
                   source={require('../assets/Tour.png')}
                   resizeMode="contain"
@@ -80,7 +80,7 @@ const TabNavigator = () => {
           options={{
             headerShown: false,
             tabBarIcon: ({ focused }) => (
-              <View style={focused}>
+              <View  >
                 <Image
                   source={require('../assets/Food.png')}
                   resizeMode="contain"
@@ -95,7 +95,7 @@ const TabNavigator = () => {
           options={{
             headerShown: false,
             tabBarIcon: ({ focused }) => (
-              <View style={focused}>
+              <View  >
                 <Image
                   source={require('../assets/Accomodations.png')}
                   resizeMode="contain"
@@ -110,7 +110,7 @@ const TabNavigator = () => {
           options={{
             headerShown: false,
             tabBarIcon: ({ focused }) => (
-              <View style={focused}>
+              <View  >
               </View>
             ),
             tabBarItemStyle: {
@@ -125,7 +125,7 @@ const TabNavigator = () => {
           options={{
             headerShown: false,
             tabBarIcon: ({ focused }) => (
-              <View style={focused}>
+              <View  >
               </View>
             ),
             tabBarItemStyle: {

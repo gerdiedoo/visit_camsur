@@ -1,5 +1,5 @@
 import { View, Text, Button, Image, StyleSheet, SafeAreaView } from 'react-native'
-import BottomButtons from '../Components/BottomButtons';
+import BottomButtons from '../Components/BottomButtons.';
 
 import { useNavigation } from "@react-navigation/native"
 import React, { useLayoutEffect } from 'react'

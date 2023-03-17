@@ -23,7 +23,7 @@ const DrawerNavigator = () => {
             component={TabNavigator} 
             options={{
                 drawerIcon: ({ focused }) => (
-                    <View style={focused}>
+                    <View  >
                         <Image
                         source={require('../assets/home.png')}
                         resizeMode="contain"
@@ -38,7 +38,7 @@ const DrawerNavigator = () => {
           component={ProfileScreen} 
           options={{
                 drawerIcon: ({ focused }) => (
-                    <View style={focused}>
+                    <View  >
                         <Image
                         source={require('../assets/home.png')}
                         resizeMode="contain"
@@ -53,7 +53,7 @@ const DrawerNavigator = () => {
           component={LeaderboardScreen} 
           options={{
                 drawerIcon: ({ focused }) => (
-                    <View style={focused}>
+                    <View  >
                         <Image
                         source={require('../assets/leaderboard.png')}
                         resizeMode="contain"
@@ -67,7 +67,7 @@ const DrawerNavigator = () => {
           component={SettingsScreen} 
           options={{
                 drawerIcon: ({ focused }) => (
-                    <View style={focused}>
+                    <View  >
                         <Image
                         source={require('../assets/settings.png')}
                         resizeMode="contain"
@@ -81,7 +81,7 @@ const DrawerNavigator = () => {
           component={FavoriteScreen} 
           options={{
                 drawerIcon: ({ focused }) => (
-                    <View style={focused}>
+                    <View  >
                         <Image
                         source={require('../assets/favorite.png')}
                         resizeMode="contain"
@@ -96,7 +96,7 @@ const DrawerNavigator = () => {
           component={SuggestionsScreen} 
           options={{
                 drawerIcon: ({ focused }) => (
-                    <View style={focused}>
+                    <View  >
                         <Image
                         source={require('../assets/home.png')}
                         resizeMode="contain"
@@ -111,7 +111,7 @@ const DrawerNavigator = () => {
           component={AboutScreen} 
           options={{
                 drawerIcon: ({ focused }) => (
-                    <View style={focused}>
+                    <View  >
                         <Image
                         source={require('../assets/about.png')}
                         resizeMode="contain"
@@ -125,7 +125,7 @@ const DrawerNavigator = () => {
           component={MapScreen} 
           options={{
                 drawerIcon: ({ focused }) => (
-                    <View style={focused}>
+                    <View  >
                         <Image
                         source={require('../assets/map.png')}
                         resizeMode="contain"
@@ -139,7 +139,7 @@ const DrawerNavigator = () => {
           component={HelpScreen} 
           options={{
                 drawerIcon: ({ focused }) => (
-                    <View style={focused}>
+                    <View  >
                         <Image
                         source={require('../assets/help.png')}
                         resizeMode="contain"
@@ -153,7 +153,7 @@ const DrawerNavigator = () => {
           component={ShareScreen} 
           options={{
                 drawerIcon: ({ focused }) => (
-                    <View style={focused}>
+                    <View  >
                         <Image
                         source={require('../assets/share.png')}
                         resizeMode="contain"

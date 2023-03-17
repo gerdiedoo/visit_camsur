@@ -2,7 +2,7 @@ import { View, Text, Button, Image, StyleSheet, SafeAreaView,TouchableOpacity, F
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from "@react-navigation/native"
 import { BrokenHeart, Visit_Camsur,Food} from '../assets';
-import BottomButtons from '../Components/BottomButtons';
+import BottomButtons from '../Components/BottomButtons.';
 import heart_img from '../assets/heart_img.png';
 import ratings_img from '../assets/ratings_img.png';
 
