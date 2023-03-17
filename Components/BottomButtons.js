@@ -1,6 +1,7 @@
 import { View, Text, Button, Image, StyleSheet, SafeAreaView,TouchableOpacity } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from "@react-navigation/native"
+import * as Animatable from 'react-native-animatable';
 import { BrokenHeart, Visit_Camsur, Food, Gamehover, Tour, Accomodations, Home } from '../assets';
 import Game from '../Screens/Game';
 
